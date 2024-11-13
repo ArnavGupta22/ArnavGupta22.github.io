@@ -943,6 +943,18 @@ main {
   100% { transform: scale(1); }
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust size as needed */
+  gap: 10px; /* Space between images */
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .project-item > a { width: 100%; }
 
 .project-img {
