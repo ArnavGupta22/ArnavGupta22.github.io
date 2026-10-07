@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Arnav Gupta | Software &amp; Systems Engineer</title>
+  <meta name="description" content="Arnav Gupta is a Georgia Tech Computer Engineering student working across software systems, AI infrastructure, distributed systems, and performance engineering.">
 
   <!--
     - favicon
@@ -46,9 +47,9 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Arnav Gupta</h1>
+          <h1 class="name" title="Arnav Gupta">Arnav Gupta</h1>
 
-          <p class="title">Software Engineer | AI Enthusiast</p>
+          <p class="title">Software &amp; Systems Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -74,49 +75,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:agupta3177@gatech.edu" class="contact-link">agupta3177@gatech.edu</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+15087972204" class="contact-link">+1 (508) 797-2204</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2006-02-22">February 22, 2006</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Boston, Massachusetts, USA</address>
+              <a href="mailto:arnav06.gupta@gmail.com" class="contact-link">arnav06.gupta@gmail.com</a>
             </div>
 
           </li>
@@ -128,13 +87,13 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://github.com/ArnavGupta22" class="social-link">
+            <a href="https://github.com/ArnavGupta22" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Arnav Gupta on GitHub">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/arnavg04" class="social-link">
+            <a href="https://www.linkedin.com/in/arnavg04" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Arnav Gupta on LinkedIn">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
@@ -168,15 +127,11 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li class="navbar-item">
@@ -192,14 +147,85 @@
       -->
       <article class="home active" data-page="home">
       <header>
-        <h2 class="h2 article-title">Home</h2>
+        <h2 class="h2 article-title">About Me</h2>
       </header>
 
-        <section class="home-text">
+        <section class="home-intro" aria-label="Introduction">
+          <p class="home-eyebrow">Georgia Tech &middot; Computer Engineering</p>
           <p>
-            Welcome to my personal portfolio! Explore this website to learn more about me, my projects, experience,
-            and the skills I have to offer.
+            I'm a Computer Engineering student at Georgia Tech interested in AI infrastructure, distributed systems,
+            and performance-critical software. I've worked on production AI systems at LinkedIn, deep-research
+            infrastructure at TrueFoundry, and low-latency systems research at Georgia Tech's ANSR Lab.
           </p>
+          <p>
+            I enjoy designing reliable backend systems, tracing performance problems, and connecting ML systems to
+            real operational workflows. I'm also interested in general software engineering roles where architecture,
+            correctness, and performance matter.
+          </p>
+        </section>
+
+        <section class="experience-section" aria-labelledby="experience-title">
+          <div class="section-heading-row">
+            <div>
+              <p class="section-kicker">Industry &amp; Research</p>
+              <h3 class="h3" id="experience-title">Selected Experience</h3>
+            </div>
+            <a class="text-link" href="./assets/docs/Arnav_Gupta_Resume.pdf" target="_blank" rel="noopener noreferrer">Full resume <ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </div>
+
+          <ol class="experience-list">
+            <li class="experience-item">
+              <div class="experience-meta">
+                <h4 class="h4">LinkedIn</h4>
+                <span>Software Engineering Intern</span>
+                <time>May - Aug 2026</time>
+              </div>
+              <p>
+                Built an AI-assisted on-call triage system for ML feature-generation infrastructure. Designed an
+                orchestrated, read-only diagnostic pipeline with specialized tools, infrastructure integrations,
+                failure-mode classification, alert routing, and citable knowledge retrieval; remediation and feedback
+                remained human-gated.
+              </p>
+            </li>
+
+            <li class="experience-item">
+              <div class="experience-meta">
+                <h4 class="h4">TrueFoundry</h4>
+                <span>Software Engineering Intern</span>
+                <time>May - Aug 2025</time>
+              </div>
+              <p>
+                Built backend infrastructure for enterprise deep research, including LangGraph workflows, MCP/FastMCP
+                tools, internal data retrieval, model routing, and research-agent orchestration. Focused on reliable
+                integrations and lower-latency multi-model workflows.
+              </p>
+            </li>
+
+            <li class="experience-item">
+              <div class="experience-meta">
+                <h4 class="h4">Georgia Tech ANSR Lab</h4>
+                <span>Undergraduate Researcher</span>
+                <time>Sep 2026 - Present</time>
+              </div>
+              <p>
+                Working on LDB-related low-overhead latency profiling for multithreaded applications. Developing
+                software-only stack-sampling and event-tracing mechanisms to study per-function latency and
+                cross-thread behavior.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skills-section" aria-labelledby="skills-title">
+          <p class="section-kicker">Technical Foundation</p>
+          <h3 class="h3" id="skills-title">Skills</h3>
+          <div class="skill-groups">
+            <div class="skill-group"><h4>Languages</h4><p>Python, C, C++, Java, JavaScript/TypeScript, SQL, VHDL</p></div>
+            <div class="skill-group"><h4>Systems &amp; Infrastructure</h4><p>Linux, Docker, Kubernetes, distributed systems, networking, operating systems, Git</p></div>
+            <div class="skill-group"><h4>AI / ML Systems</h4><p>LLM infrastructure, agentic systems, MCP/FastMCP, LangGraph, HuggingFace, embeddings/retrieval, TensorFlow</p></div>
+            <div class="skill-group"><h4>Inference &amp; Performance</h4><p>GPU architecture, inference systems, model serving, latency analysis and optimization, parallel computing</p></div>
+            <div class="skill-group"><h4>Embedded / Low-Level</h4><p>FPGA, digital design, RISC-V, embedded systems, Raspberry Pi, Arduino</p></div>
+          </div>
         </section>
 
       </article>
@@ -209,7 +235,7 @@
         - #ABOUT
       -->
 
-      <article class="about " data-page="about">
+      <template id="legacy-about-template">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -218,73 +244,15 @@
         <section class="about-text">
           <h4>Bio</h4>
           <p>
-            Hi, I'm Arnav Gupta, a software engineer and AI enthusiast from Boston, Massachusetts. I'm currently a
-            student at Georgia Tech, pursuing a degree in Computer Engineering and specializing in
-            Distributed Systems & Software Design and Informational Internetworks. I'm passionate about using technology to
-            solve real-world problems and create innovative solutions. I have experience in full-stack development,
-            machine learning, and artificial intelligence through projects and prior internships.
-            I'm always looking for new opportunities to learn and grow in the tech industry.
+            I'm a Computer Engineering student at Georgia Tech focused on software systems, infrastructure,
+            and performance-oriented engineering.
           </p>
           <h4>Career Goals</h4>
           <p>
-            My goal is to work in a dynamic and innovative environment where I can apply my skills and knowledge to
-            create cutting-edge solutions. I'm interested in working on projects that have a positive impact on society
-            and help improve people's lives. I'm excited to continue learning and growing as a software engineer and
-            AI specialist. As someone who is passionate about the newest cutting-edge technologies,
-            I'm hoping to work in the startup space to help build and scale new products.
+            I'm interested in software engineering work involving distributed systems, backend and platform
+            infrastructure, ML systems, and low-level performance.
           </p>
         </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Currently Working On</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">MemoirAI</h4>
-
-                <p class="service-item-text">
-                  AI-powered cloud platform to securely store, tag,
-                  and find your photos, videos, and notes with natural language.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-spotify.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Vibe Dive</h4>
-
-                <p class="service-item-text">
-                  Custom Spotify Wrapped web application—tailored to one's music vibes.
-                </p>
-              </div>
-
-            </li>
-
-
-          </ul>
-
-        </section>
-
 
         <!--
           - testimonials
@@ -370,51 +338,6 @@
 
 
         <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
           - clients
         -->
 
@@ -464,7 +387,7 @@
 
 <!--        </section>-->
 
-      </article>
+      </template>
 
 
 
@@ -475,8 +398,12 @@
       -->
 
           <article class="resume" data-page="resume">
-      <header>
+      <header class="resume-header">
         <h2 class="h2 article-title">Resume</h2>
+        <a class="resume-download" href="./assets/docs/Arnav_Gupta_Resume.pdf" download>
+          <ion-icon name="download-outline"></ion-icon>
+          <span>Download PDF</span>
+        </a>
       </header>
 
   <!-- PDF Embed -->
@@ -484,7 +411,7 @@
         <iframe
           src="./assets/docs/Arnav_Gupta_Resume.pdf"
           class="resume-frame"
-          title="Resume PDF">
+          title="Arnav Gupta resume PDF">
         </iframe>
       </div>
     </article>
@@ -497,261 +424,83 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Selected Projects</h2>
         </header>
 
         <section class="projects">
 
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>Projects</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Experience</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-select-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-
-              <li class="select-item">
-                <button data-select-item>Projects</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Experience</button>
-              </li>
-
-            </ul>
-
-          </div>
-
           <ul class="project-list">
-            <!-- Project 0 -->
+            <!-- SLM Agent Distillation -->
             <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="#" onclick = "showProjectDetails(event, 'discovery-project-details')">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Discovery-Project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Discovery Project</h3>
-                <p class="project-category">Google docs compatible voice activated task manager</p>
+              <div class="project-card">
+                <p class="project-overline">ML Systems</p>
+                <h3 class="project-title">SLM Agent Distillation</h3>
+                <p class="project-category">Built a distillation pipeline that captured more than 50,000 agent traces, curated task-specific datasets, and fine-tuned smaller models to handle repeatable agent workloads with lower inference cost and latency.</p>
 
                 <div class="project-skills">
-                  <span class="skill-tag">RaspberryPi</span>
-                  <span class="skill-tag">MAX4466</span>
-                  <span class="skill-tag">ADS1115</span>
-                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">PyTorch</span>
+                  <span class="skill-tag">QLoRA</span>
+                  <span class="skill-tag">PEFT</span>
+                  <span class="skill-tag">Model Routing</span>
                 </div>
-              </a>
+              </div>
             </li>
-              <!-- Project 1 -->
+              <!-- Coastlens -->
             <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/kevskillz/aiatl">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Coastlens-1.png" alt="finance" loading="lazy">
-                </figure>
-
+              <a class="project-card" href="https://github.com/kevskillz/aiatl" target="_blank" rel="noopener noreferrer" aria-label="View Coastlens on GitHub">
+                <div class="project-card-heading">
+                  <p class="project-overline">Multimodal Data Pipeline</p>
+                  <ion-icon name="open-outline"></ion-icon>
+                </div>
                 <h3 class="project-title">Coastlens</h3>
-                <p class="project-category">Delivers coastal insurance risk metrics for property buyers</p>
+                <p class="project-category">Built a coastal property-risk pipeline that combines satellite imagery, more than a decade of NOAA hurricane data, and large-scale news ingestion, then retrieves relevant reporting with embedding-based search.</p>
 
                 <div class="project-skills">
+                  <span class="skill-tag">Flask</span>
                   <span class="skill-tag">HuggingFace</span>
                   <span class="skill-tag">Pinecone</span>
-                  <span class="skill-tag">Gemini</span>
                   <span class="skill-tag">Firecrawl</span>
-                  <span class="skill-tag">Flask</span>
-                  <span class="skill-tag">React</span>
                 </div>
               </a>
             </li>
-              <!-- Project 2 -->
+              <!-- MemoirAI -->
             <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/ArnavGupta22">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/SNAP.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Automated Medication Pillbox</h3>
-                <p class="project-category">Automates medication schedules with sorting and alerts</p>
+              <div class="project-card">
+                <p class="project-overline">Search &amp; Retrieval</p>
+                <h3 class="project-title">MemoirAI</h3>
+                <p class="project-category">Designed a multimodal retrieval system for personal photos, videos, and notes using EXIF metadata, vector embeddings, and semantic search, with cloud storage structured around fast media ingestion and retrieval.</p>
 
                 <div class="project-skills">
-                  <span class="skill-tag">Flutter</span>
+                  <span class="skill-tag">OpenAI CLIP</span>
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">GCP</span>
+                  <span class="skill-tag">Embeddings</span>
+                </div>
+              </div>
+            </li>
+                <!-- Medication Pillbox -->
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <div class="project-card">
+                <p class="project-overline">Embedded Systems</p>
+                <h3 class="project-title">Medication Pillbox (SNAP)</h3>
+                <p class="project-category">Designed and prototyped a connected pillbox around a C++-controlled Wi-Fi microcontroller, with medication scheduling, adherence tracking, and Firestore-backed synchronization.</p>
+
+                <div class="project-skills">
+                  <span class="skill-tag">C++</span>
                   <span class="skill-tag">ESP8266</span>
-                  <span class="skill-tag">Twilio</span>
-                  <span class="skill-tag">Firebase</span>
+                  <span class="skill-tag">Firestore</span>
                   <span class="skill-tag">CAD</span>
                 </div>
-              </a>
-            </li>
-                <!-- Project 3 -->
-            <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/ArnavGupta22">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Atlanta-Food-Finder.webp" alt="finance" loading="lazy">
-                </figure>
-
-
-                <h3 class="project-title">Atlanta Food Finder</h3>
-                <p class="project-category">Find, review, and favorite Atlanta's top dining spots</p>
-
-                <div class="project-skills">
-                  <span class="skill-tag">Django</span>
-                  <span class="skill-tag">Google-Maps</span>
-                  <span class="skill-tag">MySQL</span>
-                  <span class="skill-tag">Bootstrap</span>
-                  <span class="skill-tag">HTML/CSS</span>
-                </div>
-              </a>
-            </li>
-                <!-- Project 4 -->
-            <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/colabobio/infant_malnutrition_stratification">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/CIAF-model.webp" alt="finance" loading="lazy">
-                </figure>
-
-
-                <h3 class="project-title">CIAF Model</h3>
-                <p class="project-category">Predictive Model for Measuring Composite Index of Anthropometric Failure</p>
-
-
-                <div class="project-skills">
-                  <span class="skill-tag">TensorFlow</span>
-                  <span class="skill-tag">R</span>
-                  <span class="skill-tag">RandomForest</span>
-                  <span class="skill-tag">MICE</span>
-                </div>
-              </a>
-            </li>
-
-              <!-- Project 5 -->
-            <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/ArnavGupta22/PropertyPulse">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Property-Pulse.jpg" alt="finance" loading="lazy">
-                </figure>
-
-
-                <h3 class="project-title">Property Pulse</h3>
-                <p class="project-category">AI-driven housing market insights from U-Haul rental data</p>
-
-
-                <div class="project-skills">
-                  <span class="skill-tag">Django</span>
-                  <span class="skill-tag">Bootstrap</span>
-                  <span class="skill-tag">RandomForest</span>
-                  <span class="skill-tag">Webscraping</span>
-                  <span class="skill-tag">HTML/CSS</span>
-                </div>
-              </a>
+              </div>
             </li>
           </ul>
 
         </section>
 
       </article>
-
-            <!--
-            Discovery Project Details Article (Hidden Initially)
-            -->
-
-
-      <article id="discovery-project-details" class="project-details" style="display: none;">
-        <header>
-          <button onclick="showPortfolio()" class="back-button home-text">Back to Portfolio</button>
-          <h2 class="h2 article-title">Discovery Project</h2>
-        </header>
-
-        <section class="about-text">
-          <figure class="image-grid">
-            <img src="./assets/images/Discovery-Project-1.jpg" alt="Discovery Project Image">
-            <img src="./assets/images/Discovery-Project-Code-1.png" alt="Discovery Project Image">
-          </figure>
-
-
-            <h3>Google Docs Compatible Voice-Activated Task Manager</h3>
-
-            <h4>Required Technology</h4>
-            <p>RaspberryPi, MAX4466, ADS1115, Micro SD Card, Breadboard, Jumper Wires</p>
-
-            <h4>Project Description</h4>
-            <p>Have you ever suddenly remembered an important task while in bed, but
-                didn't want to get up to write it down? Yeah, me too.
-              I created a voice-activated task manager that allows
-              you to add tasks to a Google Docs using voice commands. You speak your task into the
-                microphone, the RaspberryPi processes the audio, and the task is added to your Google Docs.
-            </p>
-
-            <h4>Steps Taken</h4>
-            <p>1. Set up RaspberryPi: Configure settings and note IP address</p>
-            <p>2. Hardware Setup: Wire and setup the MAX4466 and ADS1115 with the RaspberryPi</p>
-            <p>3. Google Docs API: Enable API and obtain credentials.json file</p>
-            <p>4. Python Script: Write a Python script to process audio and add tasks to Google Docs</p>
-            <p>5. Run the Program!</p>
-
-            <h4>Challenges</h4>
-            <p>1. Learning how to use the API to add tasks to a Google Docs</p>
-            <p>2. Wiring the MAX4466 and ADS1115 to the RaspberryPi. No access to USB microphone,
-              requiring an analog to digital converter.</p>
-            <p>3. Debugging the Python script to ensure the audio was being processed correctly and being added
-            to the Google Doc.</p>
-
-
-            <div class="project-skills">
-              <h4>Skills Used:</h4>
-              <span class="skill-tag">RaspberryPi</span>
-              <span class="skill-tag">Google Docs API</span>
-              <span class="skill-tag">MAX4466</span>
-              <span class="skill-tag">ADS1115</span>
-              <span class="skill-tag">Python</span>
-            </div>
-
-
-
-        </section>
-      </article>
-
-
-
-
-
 
       <!--
         - #CONTACT
@@ -764,44 +513,19 @@
         </header>
 
 
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
+        <section class="contact-panel" aria-labelledby="contact-heading">
+          <p class="section-kicker">Get in touch</p>
+          <h3 class="h3" id="contact-heading">I'm always happy to talk about systems, infrastructure, or software engineering.</h3>
+          <p class="contact-copy">Email is the best way to reach me. You can also find my work and experience through the links below.</p>
+          <div class="contact-links">
+            <a href="mailto:arnav06.gupta@gmail.com"><ion-icon name="mail-outline"></ion-icon><span>Email</span></a>
+            <a href="https://github.com/ArnavGupta22" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon><span>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/arnavg04" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon><span>LinkedIn</span></a>
+            <a href="./assets/docs/Arnav_Gupta_Resume.pdf" target="_blank" rel="noopener noreferrer"><ion-icon name="document-text-outline"></ion-icon><span>Resume</span></a>
+          </div>
         </section>
 
       </article>
-
-      <script>
-    function showProjectDetails(event, projectId) {
-      event.preventDefault();
-      document.querySelector('.portfolio').style.display = 'none'; // Hide main portfolio
-      document.getElementById(projectId).style.display = 'block';  // Show project details
-    }
-
-    function showPortfolio() {
-      document.getElementById('discovery-project-details').style.display = 'none'; // Hide project details
-      document.querySelector('.portfolio').style.display = 'block'; // Show main portfolio
-    }
-  </script>
-
 
     </div>
 
